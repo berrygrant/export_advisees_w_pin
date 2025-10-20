@@ -7,6 +7,7 @@ javascript:(function(){
       function mapCollege(code){
         if(code === 'AR') return 'Arts';
         if(code === 'SC') return 'Sciences';
+        if(code === 'GR') return 'Graduate';        
         return code || '';
       }
 
